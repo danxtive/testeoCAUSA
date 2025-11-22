@@ -16,6 +16,14 @@ int main(void) {
     /*asdfasdfsadf
     asdfasdffsad
     asdfasdfsads*/
+
+    printf("Esto es algo nuevo que se agrega\n");
+    int n = 5;
+    printf("Imprimiendo los primeros %d numeros:\n", n);
+    for (int i = 1; i <= n; ++i) {
+        printf("%d ", i);
+    }
+    printf("\n");
     
 
     return 0;
